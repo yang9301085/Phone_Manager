@@ -116,8 +116,8 @@ public class UserDao {
             resultSet=statement.executeQuery(sql);
             while (resultSet.next()){
                 if (resultSet.getInt(1)==0){
-                    resultSet.close();
-                    preparedStatement.close();
+//                    resultSet.close();
+//                    preparedStatement.close();
                     return true;
                 }
             }
@@ -145,8 +145,7 @@ public class UserDao {
             System.out.println(preparedStatement);
             while (resultSet.next()){
                 if (resultSet.getInt(1)>0){
-                    resultSet.close();
-                    preparedStatement.close();
+
                     return true;
                 }
             }
@@ -222,8 +221,7 @@ public class UserDao {
                 list.add(user);
 //                System.out.println("userDao::("+list.size()+")"+list);
             }
-            resultSet.close();
-            preparedStatement.close();
+
             return list;
         } catch (SQLException throwables) {
             throwables.printStackTrace();
@@ -301,8 +299,7 @@ public class UserDao {
             preparedStatement.setString(2,name);
             System.out.println(preparedStatement.toString());
             if (preparedStatement.executeUpdate()>0){
-                resultSet.close();
-                preparedStatement.close();
+
                 return true;
             }
             resultSet.close();
@@ -323,8 +320,6 @@ public class UserDao {
             preparedStatement.setInt(1,id);
             System.out.println(preparedStatement.toString());
             if (preparedStatement.executeUpdate()>0) {
-                resultSet.close();
-                preparedStatement.close();
                 return true;
             }
             resultSet.close();
@@ -348,8 +343,7 @@ public class UserDao {
             while (resultSet.next()){
                 list.add(resultSet.getString(1));
             }
-            resultSet.close();
-            statement.close();
+
 
             return list;
         } catch (SQLException throwables) {
@@ -369,8 +363,7 @@ public class UserDao {
                 user.setId(resultSet.getInt("id"));
                 user.setBalance(resultSet.getDouble("balance"));
             }
-            resultSet.close();
-            preparedStatement.close();
+
             return user;
         } catch (SQLException throwables) {
             throwables.printStackTrace();
@@ -410,8 +403,7 @@ public class UserDao {
             while (resultSet.next()){
                 balance=resultSet.getDouble(1);
             }
-            resultSet.close();
-            preparedStatement.close();
+
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }

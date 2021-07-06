@@ -42,9 +42,7 @@
                 <%
                     }
                 %>
-                <li>
-                    <a href="/mall/order.jsp">成为会员</a>
-                </li>
+
             </ul>
         </div>
     </div>

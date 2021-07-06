@@ -56,23 +56,6 @@
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a  data-toggle="collapse" data-parent="#accordion"
-                                href="#collapseThree">
-                                手机价格管理
-                            </a>
-                        </h4>
-                    </div>
-                    <div id="collapseThree" class="panel-collapse collapse">
-                        <div class="panel-body">
-                            <a class="list-group-item" href="javascript:void(0);" target="frames">价格登记</a>
-                            <a class="list-group-item" href="javascript:void(0);" target="frames">价格删除</a>
-                            <a class="list-group-item" href="javascript:void(0);" target="frames">价格修改</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <a  data-toggle="collapse" data-parent="#accordion"
                                 href="#collapseFour">
                                 手机厂家管理
                             </a>
