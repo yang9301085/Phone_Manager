@@ -47,25 +47,6 @@
                         <div class="panel-body">
                             <a class="list-group-item" href="MobileListServlet" target="frames">手机列表</a>
                             <a class="list-group-item" href="mobile/registerMobile.jsp" target="frames">型号登记</a>
-                            <a class="list-group-item" href="javascript:void(0);" target="frames">型号删除</a>
-                            <a class="list-group-item" href="javascript:void(0);" target="frames">型号修改</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <a  data-toggle="collapse" data-parent="#accordion"
-                                href="#collapseThree">
-                                手机价格管理
-                            </a>
-                        </h4>
-                    </div>
-                    <div id="collapseThree" class="panel-collapse collapse">
-                        <div class="panel-body">
-                            <a class="list-group-item" href="javascript:void(0);" target="frames">价格登记</a>
-                            <a class="list-group-item" href="javascript:void(0);" target="frames">价格删除</a>
-                            <a class="list-group-item" href="javascript:void(0);" target="frames">价格修改</a>
                         </div>
                     </div>
                 </div>
@@ -80,9 +61,7 @@
                     </div>
                     <div id="collapseFour" class="panel-collapse collapse">
                         <div class="panel-body">
-                            <a class="list-group-item" href="javascript:void(0);" target="frames">厂家名称</a>
-                            <a class="list-group-item" href="javascript:void(0);" target="frames">厂家电话</a>
-                            <a class="list-group-item" href="javascript:void(0);" target="frames">厂家地址</a>
+                            <a class="list-group-item" href="FactoryListServlet" target="frames">厂家列表</a>
                         </div>
                     </div>
                 </div>

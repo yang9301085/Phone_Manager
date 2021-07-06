@@ -47,8 +47,6 @@
                         <div class="panel-body">
                             <a class="list-group-item" href="MobileListServlet" target="frames">手机列表</a>
                             <a class="list-group-item" href="mobile/registerMobile.jsp" target="frames">型号登记</a>
-                            <a class="list-group-item" href="javascript:void(0);" target="frames">型号删除</a>
-                            <a class="list-group-item" href="javascript:void(0);" target="frames">型号修改</a>
                         </div>
                     </div>
                 </div>
@@ -63,9 +61,7 @@
                     </div>
                     <div id="collapseFour" class="panel-collapse collapse">
                         <div class="panel-body">
-                            <a class="list-group-item" href="javascript:void(0);" target="frames">厂家名称</a>
-                            <a class="list-group-item" href="javascript:void(0);" target="frames">厂家电话</a>
-                            <a class="list-group-item" href="javascript:void(0);" target="frames">厂家地址</a>
+                            <a class="list-group-item" href="FactoryListServlet" target="frames">厂家列表</a>
                         </div>
                     </div>
                 </div>
